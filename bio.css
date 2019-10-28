@@ -1,0 +1,160 @@
+body {
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+}
+
+ h1 {
+     
+    border-bottom: 5px solid black;
+    width: 100%;
+    font-size: 60px;
+    background-color: #851944;
+    color: #F2fffc;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    text-transform: uppercase;
+    margin:0;
+}
+main a{
+    color:#851944;
+}
+
+
+h2 {
+    clear: both;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;    
+    font-size: 40px;
+    font-family: "Open Sans condensed", sans-serif;
+    }
+
+blockquote {
+    
+    background-color: #d3ddda;
+    border: 5px solid silver;
+    width: 250px;
+    margin:0;
+    padding: 16px;
+    box-sizing: border-box;
+    
+  
+}
+.petrobras{
+    margin-left: 10px;
+    float: right;
+}
+
+.fiat {
+    margin-right: 10px;
+    float: left;
+}
+
+ aside {
+    box-sizing: border-box;
+    background-color:#3c1d3d;
+    color:#f2fffc;
+    text-align:center;
+    padding:20px;
+    font-family: "Open Sans Condensed", sans-serif;
+   
+ }
+p {
+
+    margin-top: 20px;
+    justify-content: center;
+    margin-right: auto;
+   
+}
+
+    
+
+
+.linkedin {
+    background-image: url(linkedin.png);
+  
+}
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.github {
+    background-image: url(github.png);
+  
+}
+
+.icones-sociais li {
+    width: 40px;
+    
+    height: 40px;
+    text-indent:-9999px;
+    display:inline-block;
+}
+    
+
+
+
+aside li {
+    background:no-repeat;
+    box-sizing:border-box;
+}
+
+    
+}
+
+.foto {
+    width: 200px;
+}
+
+
+
+.container {
+    width:  60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer {
+    
+    padding:20px;
+    width: 100%;
+    color: cornsilk;
+    background-color: black;
+    text-align: center;
+    clear: both;
+}
+
+img, aside {
+    width: 15%;
+    float:right;
+    clear: right;
+    border: 5px solid black;
+    box-sizing: border-box;
+    
+}
+
+
+main {
+    width: 85%;
+    float: left;
+    
+}
+
+cite {
+    font-style: italic;
+    float:right;
+}
+
+.minha-foto {
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+aside, 
+.minha-foto {
+    border-left: 10px solid black;
+}
